@@ -1,0 +1,9 @@
+#Assignment: Use filter function to filter out the elements from a list that are divisible by 3 & 5
+def fun(n):
+
+  return n % 3 ==0 or n % 5 ==0
+      
+
+lis = [5,3,7,10,50,9]
+
+print(list(filter(fun , lis)))
